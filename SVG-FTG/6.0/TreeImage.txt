@@ -1,0 +1,48 @@
+﻿H Title=TreeImage,Horiz=True,Small=True,Stepped=True,SVGFile=False,DesCols=8,DesRows=5,ImagePart=0.65,Tooltips=True
+H Version=6.0.0,Blog=False,Rounded=True,PanZoom=True,Fanned=False,InfoPanels=True,Timeline=True
+
+U Photos=https://parallaxviewpoint.com/Images/|.\
+U SVGcode=https://parallaxviewpoint.com/SVGcode/|.\
+
+P HenryProctor($Photos:Proctor_Henry_b1833.jpg)=m(1,1):Henry Proctor (1833-1910)|Henry Proctor|
+= <span data-start='1833' data-event='Born' data-evtype='Birth'>b. 1833 in Nottingham; Bpt: 20 Jan 1833 at St. Mary's, Nottingham.</span>
+= <span data-start='1910' data-event='Died' data-evtype='Death'>d. 1910 in Nottingham aged 77. Bur: Church Cemetery, Nottingham., common grave 8123 in St Ann's Valley, on 24 May 1910.</span>
+- b. 1833 in Nottingham; Bpt: 20 Jan 1833 at St. Mary's, Nottingham.
+- d. 1910 in Nottingham aged 77. Bur: Church Cemetery, Nottingham., common grave 8123 in St Ann's Valley, on 24 May 1910.
+P ElizabethTurton($Photos:Turton_Elizabeth_b1834.jpg)=f(2,1):Elizabeth Turton (1834-1905)|Elizabeth Turton|
+= <span data-start='1834' data-event='Born' data-evtype='Birth'>b. 1834 in Maidstone, Kent.</span>
+= <span data-start='1905' data-event='Died' data-evtype='Death'>d. 1905 in Nottingham.</span>
+- b. 1834 in Maidstone, Kent.
+- d. 1905 in Nottingham.
+P WilliamStanton($Photos:Stanton_William_b1833.jpg)=m(3,1):William Stanton (1833-1883)|William Stanton|
+= <span data-start='c1833' data-event='Born' data-evtype='Birth'>b. c1833 in Bishops Cleeve, Gloucestershire.</span>
+= Licensed victualler at Worcester Arms, Worcester St, Cheltenham.
+= <span data-start='1883' data-event='Died' data-evtype='Death'>d. 1883 in Cheltenham.</span>
+- b. c1833 in Bishops Cleeve, Gloucestershire.
+- Licensed victualler at Worcester Arms, Worcester St, Cheltenham.
+- d. 1883 in Cheltenham.
+P EmmaAshbee($Photos:Ashbee_Emma_Jane_b1834.jpg)=f(4,1):Emma Jane Ashbee (1834-1924)|Emma J. Ashbee|
+= <span data-start='1834' data-event='Born' data-evtype='Birth'>b. 1834 in Tetbury, Gloucestershire.</span>
+= <span data-start='1924-04-22' data-event='Died' data-evtype='Death'>d. 22 Apr 1924 at 59 Norland Rd, Nottingham.</span>
+- b. 1834 in Tetbury, Gloucestershire.
+- d. 22 Apr 1924 at 59 Norland Rd, Nottingham.
+P WilliamProctor($Photos:Proctor_William_Henry_b1870.jpg)=m(1,2):William Henry Proctor (1870-1950)|William H. Proctor|
+= <span data-start='1870-04-21' data-event='Born' data-evtype='Birth'>b. 21 Apr 1870 in Nottingham.</span>
+= <span data-start='1950-12-12' data-event='Died' data-evtype='Death'>d. 12 Dec 1950 aged 80. Addr: 33 Young St. Bur: 15 Dec 1950 at Wilford Hill. Gr: G34/51.</span>
+- b. 21 Apr 1870 in Nottingham.
+- d. 12 Dec 1950 aged 80. Addr: 33 Young St. Bur: 15 Dec 1950 at Wilford Hill. Gr: G34/51.
+P AnnieStanton($Photos:Stanton_Annie_Emma_Isabel_b1874.jpg)=f(3,2):Annie Emma Isabel Stanton (1874-1956)|Annie E. I. Stanton|
+= <span data-start='1873' data-event='Born' data-evtype='Birth'>b. 1873 in Cheltenham, Gloucestershire.</span>
+= <span data-start='1956-06-10' data-event='Died' data-evtype='Death'>d. 10 Jun 1956 in Nottingham. Bur: 13 Jun 1956 at Wilford Hill. Gr: G34/51.</span>
+- b. 1873 in Cheltenham, Gloucestershire.
+- d. 10 Jun 1956 in Nottingham. Bur: 13 Jun 1956 at Wilford Hill. Gr: G34/51.
+
+F HenryElizabeth=HenryProctor+ElizabethTurton:WilliamProctor,...
+= <span data-start='1858-10-02' data-event='Married' data-evtype='Marriage'>Married 2 Oct 1858 at Nottingham St Nicholas.</span>
+- Married 2 Oct 1858 at Nottingham St Nicholas.
+F WilliamEmma=WilliamStanton+EmmaAshbee:AnnieStanton,...
+= <span data-start='1872-11-21' data-event='Married' data-evtype='Marriage'>Married 21 Nov 1872 at Gloucester St Catharine.</span>
+- Married 21 Nov 1872 at Gloucester St Catharine.
+F WilliamAnnie=WilliamProctor+AnnieStanton:...
+= <span data-start='1891-11-29' data-event='Married' data-evtype='Marriage'>Married 29 Nov 1891 at Nottingham Emmanuel.</span>
+- Married 29 Nov 1891 at Nottingham Emmanuel.

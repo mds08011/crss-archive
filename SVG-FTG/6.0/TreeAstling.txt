@@ -1,0 +1,87 @@
+﻿H Title=TreeAstling,W=80,H=80,MH=50,MW=50,Blog=False,Horiz=True,Stepped=False,Tooltips=True,Small=False
+H Rounded=True,SVGFile=False,PanZoom=False,Fanned=False,ButtonTR=False,ProgData=False,ImagePart=0,DesCols=12,DesRows=8
+H Version=V6.0.0,Opaque=False,Scaled=True
+
+U SVGcode=https://parallaxviewpoint.com/SVGcode/|.\
+
+P JamesA=m(3,1):James Astling (?-1756)|James Astling|
+- Buried 2 Jan 1756 at Coddington All saints.
+P MaryH=f(4,1):Mary Hall (?-1735)|Mary Hall|
+P ElizabethW=f(5,1):Elizabeth Willson|Elizabeth Willson|
+P WilliamD=m(6,1):William Dickinson|William Dickinson|
+P RebeccaG=f(7,1):Rebecca Goodbarne|Rebecca Goodbarne|
+P JamesA2=m(1,2):James Astling (1726-1726)|James Astling|
+- James was born c1726 and buried 1 Aug 1726 at Coddington All Saints.
+P EdwardA=m(3,2):Edward Astling (1730-?)|Edward Astling|
+- Baptised 19 Jul 1730 at Coddington All Saints.
+- Married Mary Bowman 27 Jul 1756 at Coddington All Saints.
+- Mary died 1805 aged 74 and buried 12 Feb 1805 at Coddington All Saints.
+P MaryA=f(4,2):Mary Astling (1732-?)|Mary Astling|
+- Baptised 10 Sep 1732 at Coddington All Saints.
+P JohnA=m(5,2):John Astling (1735-1735)|John Astling|
+- Baptised 13 Apr 1735 at Coddington All Saints.
+- Buried 18 Dec 1735 at Coddington All Saints.
+P JamesA3=m(2,3):James Astling (1727-1789)|James Astling|
+- Baptised 17 Sep 1727 at Coddington All Saints.
+- Buried 10 Oct 1789 at Coddington All Saints.
+P MaryF=f(3,3):Mary Frandell (?-1772)|Mary Frandell|
+- Buried 26 May 1772 at Coddington All Saints.
+P ElizabethT=f(4,3):Elizabeth Taylor (c1731-1783)|Elizabeth Taylor|
+- d. 1783, aged 52, of "Distemper fever" and was buried 1 Feb 1783 at Coddington All Saints.
+P ElizabethD=f(6,3):Elizabeth Dickinson (1743-1824)|Elizabeth Dickinson|
+- Baptised 4 Jul 1743 in Long Bennington, Lincs.
+- Buried 11 Nov 1824 at Coddington All Saints.
+P ThomasB=m(7,3):Thomas Baker (c1739-?)|Thomas Baker|
+- Died before July 1784.
+P MargaretA=f(5,4):Margaret Astling (1784-1869)|Margaret Astling|
+- Born 28 Sep 1784 in Coddington.
+- Baptised on 10 Oct 1784 at Coddington All Saints.
+- Died 1869, aged 92, and was buried at Woodborough St. Swithun on 13 Oct 1869.
+P ThomasH=m(6,4):Thomas Hallam (1782-1850)|Thomas Hallam|
+- Baptised 14 Feb 1782 at Lowdham St. Mary The Virgin.
+- Buried 4 Jan 1850 at Bingham St. Mary and All Saints.
+P MaryA2=f(1,5):Mary Astling (1753-?)|Mary Astling|
+- Baptised 26 Aug 1753 at Coddington All Saints.
+P JamesA4=m(2,5):James Astling (1755-1815)|James Astling|
+- Baptised 5 Feb 1755 at Orston St. Mary.
+- First wife (Elizabeth) died 1798, aged 40, of "a lingering consumption" and was buried 17 Jul 1798 at Coddington All Saints.
+- Married Elizabeth Watson (b. c1758) 24 Dec 1798 at Coddington All Saints.
+- Buried 9 Jul 1815 at Coddington All Saints.
+P JohnA2=m(3,5):John Astling (1756-1834)|John Astling|
+- Baptised 14 Nov 1756 at Coddington All Saints.
+- Married Elizabeth Whaite 3 Jul 1787 at Barnby-in-the-Willow All Saints.
+- Died 1834 aged 76 and buried 16 Dec 1834 at Coddington All Saints.
+P EdwardA2=m(4,5):Edward Astling (1758-?)|Edward Astling|
+- Baptised 1 Oct 1758 at Coddington All Saints.
+P JosephA=m(5,5):Joseph Astling (1760-?)|Joseph Astling|
+- Baptised 2 Mar 1760 at Coddington All Saints.
+P SharlotA=f(6,5):Sharlot Astling (1762-?)|Sharlot Astling|
+- Baptised 25 Apr 1762 at Coddington All Saints.
+P SarahA=f(7,5):Sarah Astling (1763-?)|Sarah Astling|
+- Baptised 11 Sep 1763 at Coddington All Saints.
+P DavidA=m(8,5):David Astling (1765-1841)|David Astling|
+- Baptised 24 Mar 1765 at Coddington All Saints.
+- Died 1841 aged 76 and buried 27 Jul 1841 at Coddington All Saints.
+P ThomasA=m(9,5):Thomas Astling (1768-1769)|Thomas Astling|
+- Baptised 1 May 1768 at Coddington All Saints.
+- Buried 28 Dec 1769 at Coddington All Saints.
+P MarthaA=f(10,5):Martha Astling (1770-?)|Martha Astling|
+- Baptised 29 Apr 1770 at Coddington All Saints.
+
+F JamesMary1=JamesA+MaryH:JamesA2,JamesA3,EdwardA,MaryA,JohnA
+- Married 6 Feb 1726 at Averham St. Michael & All Angels.
+F WilliamRebecca=WilliamD+RebeccaG:ElizabethD,...
+- Married 27 Nov 1738 in Long Bennington, Lincs.
+F JamesElizabeth3=JamesA+ElizabethW:
+- Married 15 Jun 1735 at Coddington All Saints.
+F JamesMary2=JamesA3+MaryF:MaryA2,JamesA4,JohnA2,EdwardA2,JosephA,SharlotA,SarahA,DavidA,ThomasA,MarthaA
+- Married 19 Aug 1751 at Newark St. Mary Magdalene.
+F ElizabethThomas=ThomasB+ElizabethD:
+- Married 25 Aug 1766 at Coddington All Saints.
+F JamesElizabeth1=JamesA3+ElizabethT:
+- Married on 18 Mar 1775 at Coddington All Saints.
+F JamesElizabeth2=JamesA3+ElizabethD:MargaretA
+- Married on 22 Jul 1784 at Coddington All Saints.
+F ThomasMargaret=ThomasH+MargaretA:
+- Married 9 Feb 1803 at Screveton St. Wilfrid.
+- Thomas was a POW in Napoleonic France until 1814, while Margaret took up with a Thomas Meads in Epperstone.

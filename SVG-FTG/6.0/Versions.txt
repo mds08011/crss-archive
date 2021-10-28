@@ -1,0 +1,326 @@
+	Version Details
+	----------------
+
+V1.0	POC.
+
+V2.0	Added grid designer (later to become the Tree Designer).
+
+V3.0	First fully-functional utility.
+
+Changes (3.0.1)
+	Changed button order on main form.
+	FIX: Handle default Title setting correctly (now based on filename).
+	FIX: Cope with duplicate header settings (as when overriding).
+	
+Changes (3.0.2)
+	Implemented File->New Tree and File->Open Tree main-menu options.
+	Implemented View->Show/Hide All Child Links main-menu options in Tree Designer.
+	Forced file dialogs to prompt before overwriting a file.
+	Prevented user manually editing filename field.
+	FIX: 'Process' button corrupting in-memory person captions.
+	Allow comments in tree definition file (using single quote).
+
+Changes (3.0.3)
+	Remind user if he might have left unsaved changes in the Tree Designer.
+	Implemented DesCols/DesRows settings for Tree Designer grid size.
+	FIX: scroll position incorrect when resizing Tree Designer.
+	Optimise redraw when resizing Tree Designer.
+
+Changes (3.0.4)
+	FIX: Incorrect algorithm to relate grid indices to columns/rows.
+	FIX: Deleting a family was incomplete, preventing later spouse deletion.
+	Tree Designer didn't allow dynamic changing of grid size.
+	FIX: Problems with grid on reorientating within the Tree Designer.
+
+Changes (3.1.0)
+	Implement SVGFile=boolean setting.
+	FIX: Scroll position not adjusted on orientation or 'Stepped' change.
+	Show tree title in Tree Designer.
+
+Changes (3.1.1)
+	FIX: Accidentally converting XML Entity References in notes within information panels.
+
+Changes (3.2.0)
+	Should be using "current working dir" for tree files, not application dir.
+	Change Save-As function to be as expected in Windows applications.
+	Validate keys, and any Title=? setting.
+	FIX: Calculation errors when generating SVG for vertical orientations.
+	FIX: Output error if no families defined.
+	Implement "compact URL" notation and management for switching between local/remote storage.
+	Implement images within the person boxes.
+	Implemented short captions for when boxes are too small or for use with images.
+
+Changes (4.0.0)
+	Implemented 'id=' attributes on person-boxes so that they can be referenced by URL and scrolled into view.
+	FIX: If child on top of another with a child-link, moving it moved the link too.
+	Implemented menu options to copy and paste persons/families (e.g. between different sessions).
+	Implemented multiple-select via Ctrl+Click. Affects Copy-Person and Delete-Person operations.
+	Save/restore Tree Designer size and position. Don't always maximize.
+	Implemented zoom control in Tree Designer via menu options, and Ctrl/+ or Ctrl/- keystrokes.
+	Include optional pan-zoom support for browser from external source (see user guide).
+	Changed border and text of empty boxes to faint grey.
+	Support images and captions together in Tree Designer boxes.
+	Added HTML toolbar for editing person and family notes.
+	Implemented RootKey parameter to emphasise a direct-line through ancestral generations.
+
+Changes (4.0.1)
+	FIX: Scrollbar error when zooming Tree Designer display.
+	FIX: Undo button enabled too soon on HTML toolbar.
+	FIX: Blogger.com sizing issues.
+	FIX: Controls=True processed even when SVGFile=True.
+
+Changes (4.0.2)
+	FIX: Tree Designer Stuff carried between sessions, including multiple-selections.
+	FIX: Multi-selection not always cleared down at the right point.
+	FIX: Upset <svg> sizing in 4.0.1.
+
+Changes (4.1.0)
+	Provide HTML preview option when editing person or family notes in Tree Designer.
+	Added Copy-and-Paste support to Place Management form.
+
+Changes (4.1.1)
+	FIX: Not generating the correct decimal-point character in non-English locales.
+
+Changes (4.2.0)
+	FIX: Handle bad place-key definitions differently to actual missing files.
+	Implement Fanned=True setting to duplicate Tree Designer style in browsers.
+	FIX: Show 'Unshown children' status in Tree Designer (and 'fanned' output format) using striated family circles.
+	Give <line> elements a class based on their family key to allow them to be distinguished with CSS formatting.
+
+Changes (4.2.1)
+	Look at Alt key when dismissing information panels.
+	FIX: Keys not being validated when first loaded from file.
+	FIX: coordinates miscalculated when scrolled to end of large tree.
+	FIX: better cope with child boxes being at different levels in browser output.
+	Increase maximum size of Tree Designer grid.
+
+Changes (4.3.0)
+	Information panels and tooltips no longer exclusive. Each can hold different text.
+	Support custom event handling, in both HTML and SVG output.
+	Allow for general textual data for persons/families to support custom event handlers.
+	Tabbed UI to handle the three types of textual data for persons/families.
+
+Changes (4.3.1)
+	FIX: Changed button names in secondary forms from Exit/Quit to OK/Cancel.
+	FIX: Changed Open-File dialogs to better cope with case-sensitive filenames on the Mac.
+	FIX: Size Tree Designer window according to grid size (and screen size) rather than Maximize.
+	FIX: Cope with multiple monitors. Size and position of forms evaluated according to active monitor.
+	FIX: Could not grab glowing line when over empty grid box.
+	FIX: Could not right-click on family-circle if adjoining line was glowing.
+	FIX: Use "\" to force line-breaks in captions, not "|" as it is the long/short caption separator.
+	FIX: Fix right-click menu issue in 'Manage Places' form.
+	Edit-Person and Edit-Family forms now remember if they've been resized.
+
+Changes (4.3.2)
+	FIX: Resizing 'Manage Places' form left edit box at old location on some systems.
+	Tree definition file now in UTF-8 (with associated BOM).
+	FIX: Generate numeric character references for any non-ASCII characters in HTML/SVG output.
+	Provider batch scripts to help with installation of new versions, and update of shortcut.
+
+Changes (4.4.0)
+	FIX: Improved error handling when window locked for updates.
+	Added option to have one-or-more selectable buttons in the person-box corners, plus distinct event handlers.
+	Improvements to output quality, and to control over custom formatting.
+	Made 'Sex' tristate: male, female, and unknown/indeterminate.
+	Optional to put rounded corners on person-boxes, and any embedded buttons.
+	Implemented local settings per-person and per-family.
+
+Changes (4.4.1)
+	FIX: ADODB behaving differently on newer systems. Change order of settings when opening tree file to avoid Unicode replacement characters (FFFD).
+
+Changes (4.5.0)
+	Allow icons for the person-box buttons.
+	Allow tooltips for person-box buttons.
+	Improve caption wrapping and positioning within person-boxes.
+	Improve SVG code with semantic grouping, and making it smaller.
+	RootKey setting can now be specified in the Edit-Person form.
+	Button added to HTML toolbar for specifying event details (see show-case application).
+	For clarity, "UserData" setting renamed to "ProgData", and "Controls" to "InfoPanels".
+	'Undo' operations in the Edit-Person and Edit-Family HTML panels are now stacked (i.e. can do multiple).
+	'Image Proportion', in Edit-Person form, can now be a percentage or a decimal.
+	Implemented NavData=True option to generate tree-navigation data for programmers.
+	FIX: Wrong family key may be selected when writing sorted family list to tree definition file.
+	FIX: Timing error when "HTML Preview" initialising its homepage.
+	FIX: Person and family keys must be distinct from each other.
+	FIX: Orientation not switched properly by Edit-Settings form.
+
+Changes (4.5.1)
+	FIX: Character entities not handled correctly in HTML event mark-up.
+	FIX: Added missing Timeline=boolean option to generate timeline reports for users.
+	FIX: Validate new event types in HTML event mark-up.
+	FIX: Improve date scanning during HTML event mark-up.
+	FIX: User-guide was mangled by MS Word bug.
+	FIX: msado15.dll not addressed by installer.
+
+Changes (4.5.2)
+	FIX: Timeline=True setting not including navigation data or navigation.js support.
+
+Changes (4.6.0)
+	Handle GEDCOM-like dates and their keywords (only Gregorian/Julian, no "B.C." suffix, and no date phrases).
+	Added Timeline checkbox to Edit-Settings form.
+	Added 'Auto Layout' option to attempt layout algorithmically.
+	Rounded corners is now the default on person-boxes.
+	Implement command-line to specify first tree definition file, and processing options (e.g. positioning Designer window).
+	Move multiply-selected boxes as a group.
+	Added menu options to select all boxes, or all children of a family (e.g. for a group move).
+	FIX: Predefined event-types (in HTML event mark-up) sometimes got added to dropdown twice.
+	FIX: Generate <span> rather than <div> for event mark-up in most cases.
+	FIX: When pasting family or multiple persons, non-overlapping boxes sometimes coloured red.
+	FIX: When pasting family into narrow grid, some child links were not drawn.
+	FIX: When pasting family to place where children already exist, internal error associating existing children.
+	FIX: Non-existent tree definition files were quietly created as empty files.
+	FIX: More accurate multiple-selection when several persons stacked on same box.
+	FIX: Indicate application is "DPI aware" (actually "system DPI").
+
+Changes (4.6.1)
+	FIX: 'Object Required' error using 'Edit Child' button in 'Edit Family' form.
+	FIX: HTML Notes tab loses focus when HTML Toolbar checkbox toggled.
+	FIX: When right-clicking on *.txt and selecting 'Open With' SVG.exe, working directory is system32 (unless SVG.exe browsed for).
+	FIX: Drag-n-drop rectangle persists under Windows 10 when destination invalid (valid destinations already fixed).
+	FIX: Release window updates before logging out-of-bounds coordinates to logging window.
+
+Changes (5.0.0)
+	Full GEDCOM import, allowing copy-and-paste into Tree Designer.
+	Tighten up key+click usage in browsers to help IE users and Mac users.
+	Configuration settings to control which key+click combinations map to which operations.
+	FIX: Allow file open/save dialogs to change working directory.
+	FIX: Layout for sequential marriages not always as intended.
+	FIX: Moving a box associated with sequential marriages didn't update internal data properly.
+	FIX: Improve scaling and padding of SVG in HTML, and avoid content breaking out of bounding box.
+	FIX: Ctrl+Click on empty person-box generated error message.
+	Split main documentation into separate user-guide and program documentation.
+
+Changes (5.0.1)
+	FIX: Short caption not being generated from imported GEDCOM.
+	FIX: GEDCOM calendar escapes not decoded properly.
+
+Changes (5.0.2)
+	Keep SVG aspect ratio when squeezing image into a blog, etc.
+	Modified formatting of Julian dates to drop day-of-week.
+	FIX: Improved any resizing of the GEDCOM Loader form.
+	FIX: "Illegal date syntax" error if no date was found when adding HTML mark-up to person/family Notes.
+	FIX: Strengthen handling of unrecognised GEDCOM dates.
+
+Changes (5.0.3)
+	FIX: Handle larger GEDCOM files without "Oveflow" error.
+	FIX: Improve performance of GEDCOM Loader.
+	FIX: Added checks for "lineage loop" when trying to layout exported GEDCOM relationships.
+
+Changes (5.0.4)
+	FIX: Better formatting when merging multiple GEDCOM NOTE contributions.
+	FIX: Better handling of HTML and/or plain-text GEDCOM NOTE contributions.
+	Add any alternative names to a person's notes.
+
+Changes (5.1)
+	Import thumbnail image references from GEDCOM (see User Guide).
+	Added 'Localise Images' button in Tree Designer to help create local image copies for Tree Designer.
+	Added Find-Person option in Tree Designer.
+	Added 'Select All' button to Timeline applications.
+	FIX: Carry any required place-keys with copy-and-paste operations.
+	FIX: Wrong creation version put on *.txt files created from GEDCOM file.
+	FIX: Error loading empty GEDCOM file.
+	FIX: Failed to layout lineage where child marries step-parent.
+
+Changes (5.1.1)
+	FIX: Ensure each child in a loaded tree has just one parent family.
+	FIX: Avoid occlusion of the family-circle when there are sequential marriages within a set of people.
+
+Changes (5.1.2)
+	FIX: Potential for unhandled exception in runtime support when zooming in/out of Tree Designer view.
+	FIX: Don't move multiply-selected items if an explicit non-selected box is moved.
+	FIX: Form heights not always including space needed for menu bar.
+
+Changes (5.1.3)
+	FIX: URL parameters on the end of an image-name causes syntax error on 'P' records.
+	FIX: Populated GEDCOM Loader prevents Tree Designer from redrawing when reloaded.
+
+Changes (5.1.4, DLL 1.1.1)
+	FIX: Better handling of image file references that do not use place keys.
+	FIX: Provide 'Save' option in Tree Designer, and adjust semantics of Save/Save-As to Windows convention.
+	FIX: Better joining of tree lines under high magnification.
+	FIX: More accurate clipping of buttons and icon-buttons.
+	FIX: Better recognition of unsaved data in Tree Designer, and better avoidance of accidental loss.
+
+Changes (5.1.4, DLL 1.1.2)
+	FIX: Changes to accommodate non-standard GEDCOM dates exported by MyHeritage Family Tree Builder.
+
+Changes (5.1.5, DLL 1.1.3)
+	FIX: Load many more non-standard (or rather 'illegal') GEDCOM dates exported by Legacy (R) from Millennia Corp.
+	FIX: Allow cascade of GEDCOM errors to be stopped, and loading to be abandoned.
+	FIX: Program did not terminate correctly if main Form closed before active Edit session.
+
+Changes (5.2.0, DLL 1.1.4)
+	Added option to save progress window, or part thereof, to file.
+	Allow minimum valid date year to be specified when loading GEDCOM.
+	FIX: Better handling of incomplete tree definition files generated with reported errors by GEDCOM loader.
+	FIX: File -> Close menu option not working in GEDCOM Browser.
+	FIX: Progress window lost colour attributes when data capped at 50,000 characters.
+
+Changes (5.3.0, DLL 1.1.4)
+	Added new family setting to distinguish married couple from other liaisons.
+
+Changes (5.3.1, DLL 1.1.4)
+	The new 'liaison' setting not generated when importing from GEDCOM (caused error).
+	Tree definition file specified on command-line needed either an explicit drive or folder name.
+
+Changes (5.3.2, DLL 1.1.4)
+	Added new argument to tl_show() in Timeline support so that UK-format dates can be requested.
+
+Changes (5.3.3, DLL 1.1.4)
+	Fixed problem with key names for new people (introduced in previous version).
+
+Changes	(6.0.0, DLL 1.2.0)
+	Implementation of viewpoints to see subsets of a full tree, and to generate linked trees for the browser.
+	Open framework for application selection and configuration, including existing Timeline and InfoPanels applications.
+	Placed selected settings in a new Advanced Settings form.
+	Access to tooltips and icons for *all* button corners via Advanced Settings form.
+	Access to person-box sizes, person-box separations, and button sizes via Advanced Settings form.
+	Ability for an application to only add buttons to selected person-boxes, dependent upon their program data content.
+	Improvements to the joining of shapes and lines so that highly-magnified editions are cleaner.
+	Improved choice between scaling and scrolling of large trees.
+	Default size of person-box buttons raised from 10x10 pixels to 12x12.
+	Support for IE 11.
+	Improvements to Save/Save-As options, and the use of modeless forms.
+	Ability to specify stock image for person boxes (per sex) via Settings form.
+	Shortened caption now derived automatically from full caption if otherwise empty.
+	Ability to make person boxes opaque rather than translucent.
+	Ability to specify background image for tree in browser via Advanced-Settings form.
+	Ability to open biographical notes in a separate browser tab rather than using a pop-up information panels.
+	Enhanced manipulation of HTML in notes. Better help selecting parts. Preservation of unsupported attributes.
+	Find-Person option in Tree Designer also scrolls person into view. Can be accessed using Ctrl+F shortcut now.
+	Local per-person settings now provide control over button tooltips.
+	Toolkit to help application development using 'Program Data' tab (e.g. for highlighting DNA matches).
+	Table-based data editor for registered data formats in Program Data tabs.
+	Global/Local per-person and per-family settings allow user-defined CSS classes to be assigned to visible entities.
+	Previous global per-family CSS classes associated with lines are no longer preassigned.
+	GEDCOM export.
+	GEDCOM import: "SEX ?" accepted as alternative to "SEX U".
+	GEDCOM import: Better importing of personal names, including support for multiple names and itemised name parts.
+	Storage of separate (multiple) personal names for each person, interfacing to GEDCOM better.
+	Auto-key generation for new person or family (can be overridden).
+	Ability to specify alternative header file (e.g. alternative to Header.html) for use during application development.
+	Caption of Tree Designer window changed to show current grid size.
+	Accept sex character of 'u' (unspecified/unknown) to distinguish from existing 'x' (other/indeterminate).
+	Custom domain used for internet resources, e.g. https://parallaxviewpoint.com/SVGcode.
+	Command-line now has optional tree definition file, which means options are allowed on their own.
+	Re-written Place-Management utility to iron-out many wrinkles.
+	New 'Ancestor Links' application and old RootKey setting collaborate to implement a "startup person".
+	FIX: PNG files were not accepted in the Tree Designer before due to limitations of MS library.
+	FIX: Better handling of non-Windows files (i.e. record terminator issues).
+	FIX: Now checking for multiple definitions of place-keys in *.txt file.
+	FIX: Percentage values not interpreted correctly on 'ImagePart' header setting.
+	FIX: Better handling of entity references in notes/tooltips, and XHTML conformance when SVGFile=True.
+	FIX: Possible lock-up during 'Auto Layout' option.
+	FIX: 'Copy Person and Spouse' option in GEDCOM Browser was non-functioning.
+	FIX: 'Copy Person and All Spouses' option in GEDCOM Browser did not save the associated family details.
+	FIX: Acknowledgement of adopted or fostered status of child in a family.
+	FIX: In the Place-Management form, the right-click options to show current expansions did not work correctly.
+	FIX: Switching orientation did not switch grid size.
+	FIX: Moving group of multiply-selected boxes in Stepped mode could distort their arrangement.
+	FIX: Alternative drag-icon available to overcome issues with WINE-based compatibility layers such as PlayOnMac.
+	FIX: Changing RootKey and re-generating outputs did not always undo previous highlighted paths.
+	Record types (first letter of records in *.txt file) now case-sensitive.
+	Many new header settings: Viewpoints, NotesData, Opaque, Scaled, Header, BGImage*, Class*, and StockImage*.
+	New record types V/f/p added for Viewpoints.
+	Deprecated old record type "_", and old header settings 'Controls' and 'UserData'.
+	Deprecated header settings AltClick, Click, CtrlClick, and ShiftClick.

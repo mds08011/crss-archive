@@ -1,0 +1,127 @@
+﻿0 HEAD
+1 SOUR SVG-FTG
+2 VERS V6.0.0
+2 NAME SVG Family-Tree Generator
+2 CORP Tony Proctor
+1 SUBM @Subm_User@
+1 DATE 13 Mar 2021
+1 GEDC
+2 VERS 5.5.1
+2 FORM Lineage-Linked
+1 CHAR UTF-8
+0 @Subm_User@ SUBM
+1 NAME Tony Proctor
+0 @HenryProctor@ INDI
+1 NAME Henry /Proctor/
+1 SEX M
+1 OBJE
+2 FILE https://parallaxviewpoint.com/Images/Proctor_Henry_b1833.jpg
+3 FORM jpg
+1 BIRT
+2 DATE 1833
+2 NOTE b. 1833 in Nottingham; Bpt: 20 Jan 1833 at St. Mary's, Nottingham.
+1 DEAT
+2 DATE 1910
+2 NOTE d. 1910 in Nottingham aged 77. Bur: Church Cemetery, Nottingham., common grave 8123 in St Ann's Valley, on 24 May 1910.
+1 NOTE 
+2 CONT 
+1 FAMS @HenryElizabeth@
+0 @ElizabethTurton@ INDI
+1 NAME Elizabeth /Turton/
+1 SEX F
+1 OBJE
+2 FILE https://parallaxviewpoint.com/Images/Turton_Elizabeth_b1834.jpg
+3 FORM jpg
+1 BIRT
+2 DATE 1834
+2 NOTE b. 1834 in Maidstone, Kent.
+1 DEAT
+2 DATE 1905
+2 NOTE d. 1905 in Nottingham.
+1 NOTE 
+2 CONT 
+1 FAMS @HenryElizabeth@
+0 @WilliamStanton@ INDI
+1 NAME William /Stanton/
+1 SEX M
+1 OBJE
+2 FILE https://parallaxviewpoint.com/Images/Stanton_William_b1833.jpg
+3 FORM jpg
+1 BIRT
+2 DATE ABT 1833
+2 NOTE b. c1833 in Bishops Cleeve, Gloucestershire.
+1 DEAT
+2 DATE 1883
+2 NOTE d. 1883 in Cheltenham.
+1 NOTE 
+2 CONT Licensed victualler at Worcester Arms, Worcester St, Cheltenham.
+2 CONT 
+1 FAMS @WilliamEmma@
+0 @EmmaAshbee@ INDI
+1 NAME Emma Jane /Ashbee/
+1 SEX F
+1 OBJE
+2 FILE https://parallaxviewpoint.com/Images/Ashbee_Emma_Jane_b1834.jpg
+3 FORM jpg
+1 BIRT
+2 DATE 1834
+2 NOTE b. 1834 in Tetbury, Gloucestershire.
+1 DEAT
+2 DATE 22 APR 1924
+2 NOTE d. 22 Apr 1924 at 59 Norland Rd, Nottingham.
+1 NOTE 
+2 CONT 
+1 FAMS @WilliamEmma@
+0 @WilliamProctor@ INDI
+1 NAME William Henry /Proctor/
+1 SEX M
+1 OBJE
+2 FILE https://parallaxviewpoint.com/Images/Proctor_William_Henry_b1870.jpg
+3 FORM jpg
+1 BIRT
+2 DATE 21 APR 1870
+2 NOTE b. 21 Apr 1870 in Nottingham.
+1 DEAT
+2 DATE 12 DEC 1950
+2 NOTE d. 12 Dec 1950 aged 80. Addr: 33 Young St. Bur: 15 Dec 1950 at Wilford Hill. Gr: G34/51.
+1 NOTE 
+2 CONT 
+1 FAMS @WilliamAnnie@
+1 FAMC @HenryElizabeth@
+0 @AnnieStanton@ INDI
+1 NAME Annie Emma Isabel /Stanton/
+1 SEX F
+1 OBJE
+2 FILE https://parallaxviewpoint.com/Images/Stanton_Annie_Emma_Isabel_b1874.jpg
+3 FORM jpg
+1 BIRT
+2 DATE 1873
+2 NOTE b. 1873 in Cheltenham, Gloucestershire.
+1 DEAT
+2 DATE 10 JUN 1956
+2 NOTE d. 10 Jun 1956 in Nottingham. Bur: 13 Jun 1956 at Wilford Hill. Gr: G34/51.
+1 NOTE 
+2 CONT 
+1 FAMS @WilliamAnnie@
+1 FAMC @WilliamEmma@
+0 @HenryElizabeth@ FAM
+1 HUSB @HenryProctor@
+1 WIFE @ElizabethTurton@
+1 CHIL @WilliamProctor@
+1 MARR
+2 DATE 02 OCT 1858
+2 NOTE Married 2 Oct 1858 at Nottingham St Nicholas.
+0 @WilliamEmma@ FAM
+1 HUSB @WilliamStanton@
+1 WIFE @EmmaAshbee@
+1 CHIL @AnnieStanton@
+1 MARR
+2 DATE 21 NOV 1872
+2 NOTE Married 21 Nov 1872 at Gloucester St Catharine.
+0 @WilliamAnnie@ FAM
+1 HUSB @WilliamProctor@
+1 WIFE @AnnieStanton@
+1 MARR
+2 DATE 29 NOV 1891
+2 NOTE Married 29 Nov 1891 at Nottingham Emmanuel.
+0 TRLR

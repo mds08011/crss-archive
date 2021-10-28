@@ -1,0 +1,98 @@
+﻿H Title=TreeAshbee,InfoPanels=True,W=80,H=80,MH=50,MW=50,Small=False,Horiz=True,Stepped=True,Blog=False,SVGFile=False
+H PanZoom=True,Fanned=False,Tooltips=False,ImagePart=0.65,DesCols=12,DesRows=8,Version=6.0.0,Rounded=True,Opaque=False
+
+U Photos=https://parallaxviewpoint.com/Images/|.\
+U SVGcode=https://parallaxviewpoint.com/SVGcode/|.\
+U Blog=http://parallax-viewpoint.blogspot.com/|
+
+P William_1803=m(2,1):William Ashbee (1803-1870)|William Ashbee|
+= William Ashbee was born c1803 in Hillsley, Gloucestershire, England,
+= and died 14 Jan 1870 at 2 York Cottages, Grosvenor Terrace, Cheltenham, of 'Disease of the heart'.
+= William was originally a baker and grocer but tried to get into publishing. In 1868, he fell foul of a copyright
+= case that proved to be important for later digital data and databases. This case bankrupted him and he died
+= shortly after.
+= <br><br><b>Articles and mentions:</b><br>
+= <a href="$Blog:2015/08/a-copyright-casualty-part-i.html" target="_blank">A Copyright Casualty — Part I</a><br>
+= <a href="$Blog:2015/09/a-copyright-casualty-part-ii.html" target="_blank">A Copyright Casualty — Part II</a><br>
+= <a href="$Blog:2015/09/a-copyright-casualty-part-iii.html" target="_blank">A Copyright Casualty — Part III</a>
+# References | A Copyright Casualty — Part I | $Blog:2015/08/a-copyright-casualty-part-i.html
+# References | A Copyright Casualty — Part II | $Blog:2015/09/a-copyright-casualty-part-ii.html
+# References | A Copyright Casualty — Part III | $Blog:2015/09/a-copyright-casualty-part-iii.html
+P Ann_1801=f(4,1):Ann Hayward (1801-1869)|Ann Hayward|
+= Ann, or "Annie", was born c1801 in Westonbirt, Gloucestershire, England,
+= and died 29 Nov 1869 at 30 Smith Terrace, Chelsea, of 'Asthma, disease of the heart, many years'.
+P Thomas_1826=m(1,2):Thomas Ashbee (1826-1891)|Thomas Ashbee|
+= Thomas Ashbee was born c1826 in Tetbury, Gloucestershire, and died 1891 in the same county. He was a tin worker and
+= this contributed to a dementia causing him to be described as an 'imbecile' in the 1891 census. He was married twice
+= during his life.
+P John_1831=m(2,2):John Ashbee (1831-1912)|John Ashbee|
+= John Ashbee was born c1831 in Westonbirt, Tetbury, and died 22 Apr 1912 at 67 Ringford Road, Wansworth, London.
+P Emma_1834($Photos:Ashbee_Emma_Jane_b1834.jpg)=f(5,2):Emma Jane Ashbee (1834-1924)|Emma Ashbee|
+= Emma Jane Ashbee (later Stanton) was born c1834 in Tetbury, Gloucestershire, and died 22 Apr 1924 (same date as her father) at 59
+= Norland Road, Nottingham.
+P William_1833($Photos:Stanton_William_b1833.jpg)=m(4,2):William Stanton (1833-?)|William Stanton|
+= William Stanton was born c1833 in Bishops Cleeve, Gloucestershire. Death uncertain. Possibly in Bicester, Oxfordshire, in 1924.
+P Mary_1834=f(3,2):Mary Sandford (1834-1871)|Mary Sandford|
+= Mary Sandford was born c1834 in Berkeley, Gloucestershire, and died 1871 in Cheltenham, Gloucestershire.
+P William_1836=m(6,2):William Ashbee (1836-1907)|William Ashbee|
+= William Ashbee was born 29 Nov 1836 in Tetbury, Gloucestershire, and died 24 Jan 1907 at 48 Cannon Street, Glasshoughton, West Yorkshire.
+= <br><br><b>Articles and mentions:</b><br>
+= <a href="http://parallax-viewpoint.blogspot.com/2015/09/a-copyright-casualty-part-iii.html" target="_blank">A Copyright Casualty — Part III</a>
+P Mary_1844=f(7,2):Mary Ann Hale (1844-1890)|Mary A. Hale|
+= Mary Ann Hale was born c1844 in Middlesex, and died c1890 in Islington, London.
+P Annie_1873($Photos:Stanton_Annie_Emma_Isabel_b1874.jpg)=f(5,3):Annie Emma Isabel Stanton (1873-1956)|Annie Stanton|
+= Annie Emma Isabel Stanton was born in 1873 in Cheltenham, Gloucestershire, and died 1956 in Nottingham.
+P William_1870=m(4,3):William Henry Proctor (1870-1950)|William H. Proctor|
+= William Henry Proctor was born 21 Apr 1870 in Nottingham, and died 12 Dec 1950 in Nottingham.
+P Helenor_1868=f(6,3):Helenor Gertrude Norton (1868-1902)|Helenor G. Norton|
+= Helenor Gertrude Norton was born c1868 in Leeds, and died 7 Dec 1902 at 55 Pemberton Street, Shelford, Barton-upon-Irwell, Lancashire, aged 35,
+= of 'pulmonary tuberculosis 10 months, exhaustion'.
+= <br><br><b>Articles and mentions:</b><br>
+= <a href="http://parallax-viewpoint.blogspot.com/2014/10/more-of-life-revealed.html" target="_blank">More of a Life Revealed</a>
+P William_1866=m(7,3):William Henry Ashbee (1866-1922)|William H. Ashbee|
+= William Henry Ashbee was born 1866 in St. Pancras, Middlesex, and died 1922 at St. David's Care Home, Ealing.
+= <br><br><b>Articles and mentions:</b><br>
+= <a href="http://parallax-viewpoint.blogspot.com/2014/10/more-of-life-revealed.html" target="_blank">More of a Life Revealed</a>
+P Evelyn_1884=f(8,3):Evelyn A. Graham (1884-1918)|Evelyn A. Graham|
+= Evelyn A. Graham, or "Eveline", was born c1884 in Leeds, and died 1918 in Wigan, Lancashire, aged 34.
+= <br><br><b>Articles and mentions:</b><br>
+= <a href="http://parallax-viewpoint.blogspot.com/2014/10/more-of-life-revealed.html" target="_blank">More of a Life Revealed</a>
+P Mary_1905($Photos:Mary_Ashbee.JPG)=f(5,4):Mary Phyllis Ashbee (1905-1984)|Mary Ashbee|
+= Mary Phyllis Ashbee was born 28 May 1905 in Bradford, Yorkshire, and died 13 Jun 1984 while on holiday in Switzerland. She never married.
+= <br><br><b>Articles and mentions:</b><br>
+= <a href="$Blog:2014/08/a-life-revealed.html" target="_blank">A Life Revealed</a><br>
+= <a href="$Blog:2014/10/more-of-life-revealed.html" target="_blank">More of a Life Revealed</a>
+= <br>
+= <img border="0" height="400" src="$Photos:Mary_Ashbee.JPG">
+# References | A Life Revealed | http://parallax-viewpoint.blogspot.com/2014/08/a-life-revealed.html
+# References | More of a Life Revealed | http://parallax-viewpoint.blogspot.com/2014/10/more-of-life-revealed.html
+# References | Mary Phyllis Ashbee | https://parallaxviewpoint.com/Images/Mary_Ashbee.JPG
+P Evelyn_1909=f(6,4):Evelyn Ashbee (1909-1997)|Evelyn Ashbee|
+= Evelyn Ashbee was 14 Mar 1909 in Chorlton, Lancashire, and died 1997 in Tower Hamlets, London.
+= <br><br><b>Articles and mentions:</b><br>
+= <a href="http://parallax-viewpoint.blogspot.com/2014/10/more-of-life-revealed.html" target="_blank">More of a Life Revealed</a>
+P Patricia_1910=f(7,4):Patricia Ann Ashbee (1910-1973)|Patricia A. Ashbee|
+= Patricia Ann Ashbee was born 26 Dec 1910 in Chorlton, Lancashire, and died 1973 in St Andrews, Fife, aged 63.
+= <br><br><b>Articles and mentions:</b><br>
+= <a href="http://parallax-viewpoint.blogspot.com/2014/10/more-of-life-revealed.html" target="_blank">More of a Life Revealed</a>
+# References | More of a Life Revealed | http://parallax-viewpoint.blogspot.com/2014/10/more-of-life-revealed.html
+
+F William_Ann=William_1803+Ann_1801:Thomas_1826,John_1831,Emma_1834,William_1836
+= Following the reading of the banns on 18 Jun 1825, William Ashbee married Ann Hayward in the parish of Westonbirt,
+= Gloucestershire, England.
+F William_Mary=William_1833+Mary_1834:...
+= William Stanton married Mary Sandford in c1856 in Cheltenham. They had three children.
+F William_Emma=William_1833+Emma_1834:Annie_1873,...
+= After the death of his first wife, William Stanton married Emma Jane Ashbee on 21 Nov 1872 at Gloucester St. Catharine.
+= They had three children.
+F William_Annie=William_1836+Mary_1844:William_1866,...
+= William Ashbee married Mary Ann Hale in Holborn, London, in c1866.
+= They had eight children.
+F William_Mary2=William_1870+Annie_1873:...
+= William Henry Proctor married Annie Emma Isabel Stanton at Nottingham Emmanuel on 29 Nov 1891.
+= They had eleven children.
+F William_Helenor=William_1866+Helenor_1868:
+= William Henry Ashbee married Helenor Gertrude Norton in Chorlton, Lancashire, in 1893. There were no children.
+F William_Evelyn=William_1866+Evelyn_1884:Mary_1905,Evelyn_1909,Patricia_1910
+= After the death of his first wife, William Henry Ashbee married Evelyn A. Graham at Sale St. Anne, Chester, on 1 Aug 1904.
+
